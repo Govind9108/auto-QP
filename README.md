@@ -6,14 +6,19 @@ This repository contains a Streamlit-based application. Follow the steps below t
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/Govind9108/auto-QP.git
 cd your-repo
 ```
 
 ### 2. Set Up API Key
-Create a `.env` file in the root directory and add your API key:
+Create a `.env.example` file in the root directory and add your API key:
 ```ini
-API_KEY=your_api_key_here
+OPENAI_API_KEY=your_api_key_here
+OPENAI_API_TYPE=
+OPENAI_API_VERSION=
+AZURE_OPENAI_ENDPOINT=
+MODEL=
+DEPLOYMENT=
 ```
 
 ### 3. Install Dependencies
