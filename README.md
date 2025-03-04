@@ -33,9 +33,9 @@ streamlit run app.py
 
 ## Demo Video
 
-![Demo Video](video.mp4)
+![Demo Video](QP_Demo_Video.mp4)
 
-To watch the demo video, click [here](video.mp4).
+To watch the demo video, click [here](QP_Demo_Video.mp4).
 
 ---
 
