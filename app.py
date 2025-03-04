@@ -13,10 +13,6 @@ from io import BytesIO
 
 load_dotenv(".env.example", override=True)
 
-os.environ['AZURE_OPENAI_API_KEY'] = os.environ.get('OPENAI_API_KEY', '')
-os.environ['OPENAI_API_TYPE'] = 'azure_ad'
-os.environ['OPENAI_API_VERSION'] = '2023-12-01-preview'
-os.environ['AZURE_OPENAI_ENDPOINT'] = 'https://renewables-openai-v2.openai.azure.com'
 
 # Define the LLMResponse class
 class LLMResponse:
